@@ -4,13 +4,12 @@ html {
 }
 
 body {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	display: flex;
-  	justify-content: center;
 	align-items: center;
+	display: flex;
 	flex-flow: row wrap;
-	text-align: center;
-	font-size:1em;  
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size:1em; 
+  	justify-content: center; 
 	width: 100%;
 }
 
@@ -20,8 +19,7 @@ body {
 	display: flex;
   	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
-	text-align: center;  
+	flex-flow: row wrap; 
 }
 
 h1,
@@ -48,25 +46,25 @@ h4 {
 p {
 	font-size: .875em;
 	line-height: 21px;
-    padding: 0 30px;
+    padding: 0px;
 }
 
 /*Header*/
 /*The widths are in a percentage!*/
 header {
 	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
+	margin: 0px;
 	display: flex;
   	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	text-align: center;
-	width: 90%;  
+	width: 100%;  
 }
 
 header h1 {
-	Width: 90%;
-	padding: 38px 0;
+	border-bottom: 3px solid #77a466;
+	text-align: center;
+	Width: 100%;
 }
 
 header h1 span {
@@ -74,20 +72,21 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 0px 0;
+	width: 100%;
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
-	display: block;
+	text-align: center;
 }
 
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 0 10px;
+	padding: 10px 0px;
 	list-style: none;
 }
 
@@ -105,8 +104,7 @@ header nav ul li a{
   	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	text-align: center;
-	width: 90%;
+	width: 100%;
 }
 
 .main-image {
@@ -125,7 +123,6 @@ header nav ul li a{
 }
 
 .main-title h3 {
-	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
 }
@@ -140,28 +137,23 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
-	border-top: 1px solid #eee;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	flex-flow: row wrap;
 }
 
 .section-one h4 {
+	border-bottom: 1px solid #eee;
 	padding: 10px 0;
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 }
 
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: 0px;
 }
 
 .menu {
@@ -194,8 +186,7 @@ footer {
   	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	text-align: center;
-	width: 90%;  
+	width: 100%;  
 }
 
 footer span {
